@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(191, 210, 231);
+}
+header {
+border: 2px solid rgb(238, 234, 203);
+padding: 30px;
+text-align: center;
+border-radius: 30px;
+display: flex;
+flex-direction: column; 
+}
+h1 {
+    color: #ff6600c5;
+}
+p {
+    font-style: italic;
+}
+img{
+    width: 45%;
+    border: 3px solid #ff6600c5;
+    border-radius: 40px 0 40px 0;
+    margin-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+    
+}
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: rgba(184, 154, 133, 0.856);
+    color: white;
+    border: none;
+    border-radius: 40px 0 40px 0;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    color: crimson;
+    background-color: #ff6600c5;
+    
+}
+
+.about{
+    display: flex;
+    padding: 30px;
+}
+
+.about p {
+    padding-left: 40px;
+    margin: auto;
+}
+
+.Project {
+    width: 90%;
+    text-align: center;
+    color: #ff6600c5;
+}
+
+.Project-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    gap: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: orangered;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
